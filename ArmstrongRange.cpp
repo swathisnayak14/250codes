@@ -5,7 +5,6 @@ using namespace std;
 
 void armstrong(int num){
     int rem,sum=0;
-    cin>>num;
     int temp=num;
     do{
         rem=num%10;

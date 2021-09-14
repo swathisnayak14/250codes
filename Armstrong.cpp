@@ -7,11 +7,11 @@ int main(){
     int num,rem,sum=0;
     cin>>num;
     int temp=num;
-    do{
+    while(num!=0){
         rem=num%10;
         sum+=pow(rem,3);
         num/=10;
-    }while(num!=0);
+    }
     if(sum==temp)
         cout<<temp<< " is an armstrong number";
     else
