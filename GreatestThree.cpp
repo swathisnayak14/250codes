@@ -1,19 +1,21 @@
 //C++ Program to find the Greatest of three numbers
 
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
-int main(){
-    int a,b,c;
-    cin>>a>>b>>c;
-    if(a>b){
-        if(a>c)
-            cout<<a<<" is greatest";
+int main()
+{
+    int a, b, c;
+    cin >> a >> b >> c;
+    if (a > b)
+    {
+        if (a > c)
+            cout << a << " is greatest";
         else
-            cout<<c<<" is greatest";
+            cout << c << " is greatest";
     }
-    else if(b>c)
-        cout<<b<<" is greatest";
+    else if (b > c)
+        cout << b << " is greatest";
     else
-        cout<<c<<" is greatest";
+        cout << c << " is greatest";
     return 0;
 }
