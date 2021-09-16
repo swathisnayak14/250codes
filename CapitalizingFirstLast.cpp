@@ -6,7 +6,7 @@ int main()
 {
     char str[100];
     int i, length = 0;
-    cin >> str;
+    cin.getline(str, 100);
     length = strlen(str);
     for (i = 0; i < length; i++)
     {

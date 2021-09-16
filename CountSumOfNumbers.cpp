@@ -13,7 +13,7 @@ int main()
         {
             sum += (str[i] - '0');
         }
-    }
+    } 
     cout << "The sum of number of strings is " << sum;
     return 0;
 }
