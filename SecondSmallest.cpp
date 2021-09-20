@@ -36,7 +36,7 @@ int main()
     {
         cin >> a[i];
         if (a[i] < firstSmall)
-            firstSmall = a[i];
+           firstSmall = a[i];
     }
     for (int i = 0; i < n; i++)
     {
