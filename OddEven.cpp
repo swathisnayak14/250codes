@@ -11,18 +11,10 @@ int main()
     for (i = 0; i < size; i++)
     {
         cin >> a[i];
+        (a[i] % 2 == 0)?even++:odd++;
     }
-
-    for (i = 0; i < size; i++)
-    {
-        if (a[i] % 2 == 0)
-            even++;
-        else
-            odd++;
-    }
-    cout << even;
+    cout << even<<endl;
     cout << odd;
     return 0;
 }
 
-//doubt
