@@ -17,7 +17,7 @@ int main()
 {
     int people, seats;
     cin >> people >> seats;
-    if (seats < people)
+    if (seats < people)//seats=n; people=r;
     {
         cout << "Cannot adjust";
         return 0;

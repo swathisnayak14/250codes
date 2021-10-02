@@ -13,7 +13,7 @@ int main()
                 count++;
         }
         if (count == 2)
-            cout << i;
+            cout << i<<" ";
         count = 0;
     }
     return 0;
