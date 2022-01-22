@@ -18,6 +18,5 @@ int main()
         else
             cout << a[i];
     }
-
     return 0;
 }

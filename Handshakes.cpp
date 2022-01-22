@@ -6,8 +6,7 @@ int main()
 {
     int people;
     cin >> people;
-    int handshakes;
-    int max = people * (people - 1) / 2; //max handshakes
-    cout << max;
+    int handshakes= people * (people - 1) / 2; //max handshakes
+    cout << handshakes;
     return 0;
 }
